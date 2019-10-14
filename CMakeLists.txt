@@ -5,3 +5,4 @@ set(CMAKE_C_STANDARD 99)
 
 add_executable(Intro HW1.c)
 add_executable(Intro HW2.c)
+add_executable(Intro HW3.c)

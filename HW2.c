@@ -1,7 +1,7 @@
 #include <math.h>
 #include <stdio.h>
 
-int main() {
+int main3() {
 
     int userInt;
     int fixedInt;

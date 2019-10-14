@@ -90,6 +90,9 @@
 		<Unit filename="C:/Users/esteb/CLionProjects/Intro/HW2.c">
 			<Option target="Intro"/>
 		</Unit>
+		<Unit filename="C:/Users/esteb/CLionProjects/Intro/HW3.c">
+			<Option target="Intro"/>
+		</Unit>
 		<Unit filename="C:/Users/esteb/CLionProjects/Intro/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

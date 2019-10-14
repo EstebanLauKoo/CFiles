@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/esteb/CLionProjects/Intro/HW1.c" "C:/Users/esteb/CLionProjects/Intro/cmake-build-debug/CMakeFiles/Intro.dir/HW1.c.obj"
   "C:/Users/esteb/CLionProjects/Intro/HW2.c" "C:/Users/esteb/CLionProjects/Intro/cmake-build-debug/CMakeFiles/Intro.dir/HW2.c.obj"
+  "C:/Users/esteb/CLionProjects/Intro/HW3.c" "C:/Users/esteb/CLionProjects/Intro/cmake-build-debug/CMakeFiles/Intro.dir/HW3.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "MSVC")
 

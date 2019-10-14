@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Intro.dir/HW1.c.obj"
   "CMakeFiles/Intro.dir/HW2.c.obj"
+  "CMakeFiles/Intro.dir/HW3.c.obj"
   "Intro.exe"
   "Intro.exe.manifest"
   "Intro.lib"
