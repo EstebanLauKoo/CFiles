@@ -49,10 +49,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\esteb\CLionProjects\Intro
+CMAKE_SOURCE_DIR = C:\Users\esteb\CLionProjects\CFiles
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\esteb\CLionProjects\Intro\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\esteb\CLionProjects\CFiles\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -81,9 +81,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\esteb\CLionProjects\Intro\cmake-build-debug\CMakeFiles C:\Users\esteb\CLionProjects\Intro\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\esteb\CLionProjects\CFiles\cmake-build-debug\CMakeFiles C:\Users\esteb\CLionProjects\CFiles\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\esteb\CLionProjects\Intro\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\esteb\CLionProjects\CFiles\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -232,6 +232,33 @@ HW4.c.s:
 	$(MAKE) -f CMakeFiles\Intro.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Intro.dir\HW4.c.s
 .PHONY : HW4.c.s
 
+HW5.obj: HW5.c.obj
+
+.PHONY : HW5.obj
+
+# target to build an object file
+HW5.c.obj:
+	$(MAKE) -f CMakeFiles\Intro.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Intro.dir\HW5.c.obj
+.PHONY : HW5.c.obj
+
+HW5.i: HW5.c.i
+
+.PHONY : HW5.i
+
+# target to preprocess a source file
+HW5.c.i:
+	$(MAKE) -f CMakeFiles\Intro.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Intro.dir\HW5.c.i
+.PHONY : HW5.c.i
+
+HW5.s: HW5.c.s
+
+.PHONY : HW5.s
+
+# target to generate assembly for a file
+HW5.c.s:
+	$(MAKE) -f CMakeFiles\Intro.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Intro.dir\HW5.c.s
+.PHONY : HW5.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -253,6 +280,9 @@ help:
 	@echo ... HW4.obj
 	@echo ... HW4.i
 	@echo ... HW4.s
+	@echo ... HW5.obj
+	@echo ... HW5.i
+	@echo ... HW5.s
 .PHONY : help
 
 

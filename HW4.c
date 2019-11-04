@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
+int main4() {
     int userBase;
     int userExponent;
     int count;

@@ -1,7 +1,7 @@
 #include <stdio.h>
 //Compiler directive (tells the compiler to include stdio(standard IO) library.
 
-int main2() {
+int main1() {
     int x = 10;
     int y = 3;
     double z;
