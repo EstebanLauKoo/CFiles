@@ -24,7 +24,6 @@ int main(void) {
 
     for (i = 0; i < length; i++)
     {
-        printf ("Char %c \n", string[i]);
 
         if (string[i] == ' ') {
             spaces++;
@@ -36,9 +35,8 @@ int main(void) {
 
     }
 
-    printf("length %d \n", i);
+    printf("String length: %d \n", i);
     printf("Spaces: %d \n", spaces);
-    printf("String length %d \n", length);
 
     system("pause");
 
