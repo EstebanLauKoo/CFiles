@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Intro.dir/HW3.c.obj"
   "CMakeFiles/Intro.dir/HW4.c.obj"
   "CMakeFiles/Intro.dir/HW5.c.obj"
+  "CMakeFiles/Intro.dir/HW6.c.obj"
   "Intro.exe"
   "Intro.exe.manifest"
   "Intro.lib"

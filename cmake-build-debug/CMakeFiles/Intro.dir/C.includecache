@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/esteb/CLionProjects/CFiles/HW5.c
+C:/Users/esteb/CLionProjects/CFiles/HW6.c
 stdio.h
 -
 stdlib.h
+-
+string.h
 -
 

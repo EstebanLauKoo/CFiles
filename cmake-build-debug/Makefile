@@ -259,6 +259,33 @@ HW5.c.s:
 	$(MAKE) -f CMakeFiles\Intro.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Intro.dir\HW5.c.s
 .PHONY : HW5.c.s
 
+HW6.obj: HW6.c.obj
+
+.PHONY : HW6.obj
+
+# target to build an object file
+HW6.c.obj:
+	$(MAKE) -f CMakeFiles\Intro.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Intro.dir\HW6.c.obj
+.PHONY : HW6.c.obj
+
+HW6.i: HW6.c.i
+
+.PHONY : HW6.i
+
+# target to preprocess a source file
+HW6.c.i:
+	$(MAKE) -f CMakeFiles\Intro.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Intro.dir\HW6.c.i
+.PHONY : HW6.c.i
+
+HW6.s: HW6.c.s
+
+.PHONY : HW6.s
+
+# target to generate assembly for a file
+HW6.c.s:
+	$(MAKE) -f CMakeFiles\Intro.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Intro.dir\HW6.c.s
+.PHONY : HW6.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -283,6 +310,9 @@ help:
 	@echo ... HW5.obj
 	@echo ... HW5.i
 	@echo ... HW5.s
+	@echo ... HW6.obj
+	@echo ... HW6.i
+	@echo ... HW6.s
 .PHONY : help
 
 

@@ -11,3 +11,5 @@ CMakeFiles\Intro.dir\HW4.c.obj: ..\HW4.c
 
 CMakeFiles\Intro.dir\HW5.c.obj: ..\HW5.c
 
+CMakeFiles\Intro.dir\HW6.c.obj: ..\HW6.c
+
