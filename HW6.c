@@ -8,7 +8,7 @@
 
 #define MAX_SIZE 100
 
-int main(void) {
+int main6(void) {
 
     char string[MAX_SIZE] = "";
 
