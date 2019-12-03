@@ -4,28 +4,35 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int factorial(int userNumber, int result)
+
+int factorial(int userNumber)
 {
     int i;
+    int result = 1;
 
     for (i=userNumber; i > 0; i--) {
+
         result *= i;
     };
 
-    printf("result is: %i", result);
+    return result;
 
 };
 
-int main(void) {
+int main7(void) {
 
     int userNumber;
-    int result = 1;
 
     printf("Enter a number:");
     scanf_s("%i", &userNumber);
 
-    factorial(userNumber,result);
+    factorial(userNumber);
 
+    int factorialAnswer = factorial(userNumber);
+
+    printf_s("factorial is: %i \n", factorialAnswer);
+
+    system("pause");
 
 }
 

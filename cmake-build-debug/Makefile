@@ -313,6 +313,33 @@ HW7.c.s:
 	$(MAKE) -f CMakeFiles\Intro.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Intro.dir\HW7.c.s
 .PHONY : HW7.c.s
 
+Test.obj: Test.c.obj
+
+.PHONY : Test.obj
+
+# target to build an object file
+Test.c.obj:
+	$(MAKE) -f CMakeFiles\Intro.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Intro.dir\Test.c.obj
+.PHONY : Test.c.obj
+
+Test.i: Test.c.i
+
+.PHONY : Test.i
+
+# target to preprocess a source file
+Test.c.i:
+	$(MAKE) -f CMakeFiles\Intro.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Intro.dir\Test.c.i
+.PHONY : Test.c.i
+
+Test.s: Test.c.s
+
+.PHONY : Test.s
+
+# target to generate assembly for a file
+Test.c.s:
+	$(MAKE) -f CMakeFiles\Intro.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Intro.dir\Test.c.s
+.PHONY : Test.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -343,6 +370,9 @@ help:
 	@echo ... HW7.obj
 	@echo ... HW7.i
 	@echo ... HW7.s
+	@echo ... Test.obj
+	@echo ... Test.i
+	@echo ... Test.s
 .PHONY : help
 
 

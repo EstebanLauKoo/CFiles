@@ -15,3 +15,5 @@ CMakeFiles\Intro.dir\HW6.c.obj: ..\HW6.c
 
 CMakeFiles\Intro.dir\HW7.c.obj: ..\HW7.c
 
+CMakeFiles\Intro.dir\Test.c.obj: ..\Test.c
+
